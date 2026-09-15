@@ -1,11 +1,13 @@
 from flask import Flask, send_from_directory, request, jsonify
+from flask_cors import CORS
 from deepface import DeepFace
+
 import tempfile
+
 import os
 
-
 app = Flask(__name__, static_folder="..", static_url_path="")
-
+CORS(app)
 
 # ==========================================
 # SERVE EMOSENSE WEBSITE

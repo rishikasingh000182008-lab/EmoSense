@@ -1,0 +1,4 @@
+Flask
+DeepFace
+flask-cors
+gunicorn
