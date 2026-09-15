@@ -1,0 +1,1324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>EmoSense | AI-Based Emotion Detection</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ANIMATED BACKGROUND -->
+
+    <div class="glitter-container" id="glitterContainer"></div>
+
+    <div class="figma-float-decor left-decor">
+        <div class="mini-swatch" style="background:#F7A8C4;"></div>
+        <div class="mini-swatch" style="background:#C9B8F4;"></div>
+        <div class="mini-swatch" style="background:#B9E6F5;"></div>
+    </div>
+
+    <div class="figma-float-decor right-decor">
+        <div class="mini-swatch" style="background:#FFE28A;"></div>
+        <div class="mini-swatch" style="background:#C7EEDB;"></div>
+    </div>
+
+
+    <!-- NAVBAR -->
+
+   <nav class="navbar">
+
+    <a href="#hero" class="logo">
+        <span class="logo-icon">
+            <span class="logo-spark">✦</span>
+        </span>
+
+        <span class="logo-text">
+            Emo<span>Sense</span><b>.</b>
+        </span>
+    </a>
+
+    <div class="nav-links">
+
+        <a href="#hero" class="nav-link active">
+            Home
+        </a>
+
+        <a href="#features" class="nav-link">
+            How It Works
+        </a>
+
+        <a href="#psychology" class="nav-link">
+            Psychology
+        </a>
+
+        <a href="#about" class="nav-link">
+            About AI
+        </a>
+
+        <a href="#emotions" class="nav-link">
+            Emotions
+        </a>
+
+    </div>
+
+    <a href="#detector" class="try-detection-btn">
+        <span>Try Detection</span>
+        <span class="try-spark">✦</span>
+    </a>
+
+</nav>
+
+        <div class="nav-pills-group">
+
+            <div class="pill pink-pill"></div>
+            <div class="pill purple-pill"></div>
+            <div class="pill blue-pill"></div>
+            <div class="pill yellow-pill"></div>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+
+        <!-- HERO SECTION -->
+
+        <section class="hero-section" id="hero">
+
+            <div class="hero-container">
+
+                <div class="hero-left">
+
+                    <span class="badge">
+                        ✦ AI-BASED EMOTION DETECTION
+                    </span>
+
+                    <h1>
+                        Understand Your
+                        <span>Emotions</span>
+                        Through AI.
+                    </h1>
+
+                    <p>
+                        Explore how artificial intelligence, machine learning
+                        and computer vision can analyze facial expressions and
+                        provide an estimate of emotional states in real time.
+                    </p>
+
+                    <div class="hero-cta-group">
+
+                        <a href="#detector" class="hero-btn">
+                            Start Detection ✦
+                        </a>
+
+                        <a href="#features" class="hero-btn-outline">
+                            Explore More
+                        </a>
+
+                    </div>
+
+
+                    <div class="hero-info">
+
+                        <span>
+                            🧠 AI & Machine Learning
+                        </span>
+
+                        <span>
+                            📷 Computer Vision
+                        </span>
+
+                        <span>
+                            ⚡ Real-Time Analysis
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <!-- HERO AI VISUAL -->
+
+                <div class="hero-right">
+
+                    <div class="orbit orbit-one"></div>
+                    <div class="orbit orbit-two"></div>
+
+                    <div class="hero-sparkle sparkle-one">
+                        ✦
+                    </div>
+
+                    <div class="hero-sparkle sparkle-two">
+                        ✧
+                    </div>
+
+                    <div class="hero-sparkle sparkle-three">
+                        ✦
+                    </div>
+
+
+                    <div class="ai-face-card">
+
+                        <div class="face-glow"></div>
+
+
+                        <div class="camera-logo">
+
+                            <div class="camera-body">
+                                <span></span>
+                            </div>
+
+                            <div class="camera-lens"></div>
+
+                        </div>
+
+
+                        <div class="ai-face">
+
+                            <div class="eyes">
+                                <span>•</span>
+                                <span>•</span>
+                            </div>
+
+                            <div class="smile">
+                                ◡
+                            </div>
+
+                        </div>
+
+
+                        <div class="face-label">
+
+                            <span>
+                                AI VISUAL ANALYSIS
+                            </span>
+
+                            <strong>
+                                😊 Happy
+                            </strong>
+
+                        </div>
+
+
+                        <div class="mini-confidence">
+
+                            <div class="confidence-heading">
+
+                                <span>
+                                    Confidence
+                                </span>
+
+                                <span>
+                                    94%
+                                </span>
+
+                            </div>
+
+                            <div class="confidence-track">
+
+                                <div class="confidence-progress"></div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="floating-emotion floating-one">
+                        😊
+                    </div>
+
+                    <div class="floating-emotion floating-two">
+                        🥰
+                    </div>
+
+                    <div class="floating-emotion floating-three">
+                        😮
+                    </div>
+
+                    <div class="floating-emotion floating-four">
+                        😌
+                    </div>
+
+
+                    <div class="emotion-tag tag-happy">
+                        HAPPY
+                    </div>
+
+                    <div class="emotion-tag tag-neutral">
+                        NEUTRAL
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- HOW IT WORKS -->
+
+        <section class="section" id="features">
+
+            <div class="section-heading">
+
+                <div class="section-label">
+                    ✦ SIMPLE AI WORKFLOW
+                </div>
+
+                <h2>
+                    How EmoSense Works
+                </h2>
+
+                <p>
+                    A simple journey from facial input to an
+                    AI-generated emotion estimate.
+                </p>
+
+            </div>
+
+
+            <div class="workflow">
+
+
+                <div class="workflow-card card-pink">
+
+                    <div class="step-top">
+
+                        <span>
+                            01
+                        </span>
+
+                        <div class="step-icon">
+                            📷
+                        </div>
+
+                    </div>
+
+                    <h3>
+                        Capture
+                    </h3>
+
+                    <p>
+                        The camera provides an image or video frame
+                        containing a visible facial expression.
+                    </p>
+
+                </div>
+
+
+                <div class="workflow-card card-purple">
+
+                    <div class="step-top">
+
+                        <span>
+                            02
+                        </span>
+
+                        <div class="step-icon">
+                            🧠
+                        </div>
+
+                    </div>
+
+                    <h3>
+                        Analyze
+                    </h3>
+
+                    <p>
+                        Computer vision and a trained machine-learning
+                        model process facial features and visual patterns.
+                    </p>
+
+                </div>
+
+
+                <div class="workflow-card card-blue">
+
+                    <div class="step-top">
+
+                        <span>
+                            03
+                        </span>
+
+                        <div class="step-icon">
+                            ✨
+                        </div>
+
+                    </div>
+
+                    <h3>
+                        Predict
+                    </h3>
+
+                    <p>
+                        The model produces an estimated emotional category
+                        together with a confidence score.
+                    </p>
+
+                </div>
+
+
+                <div class="workflow-card card-yellow">
+
+                    <div class="step-top">
+
+                        <span>
+                            04
+                        </span>
+
+                        <div class="step-icon">
+                            📊
+                        </div>
+
+                    </div>
+
+                    <h3>
+                        Understand
+                    </h3>
+
+                    <p>
+                        Results are presented through an easy-to-understand
+                        visual interface.
+                    </p>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+        <!-- PSYCHOLOGY -->
+
+        <section class="section psychology-section" id="psychology">
+
+            <div class="section-heading">
+
+                <div class="section-label">
+                    ✦ PSYCHOLOGY × AI
+                </div>
+
+                <h2>
+                    The Psychology Behind
+                    <span>Emotion</span>
+                </h2>
+
+                <p>
+                    Emotion detection is not simply about recognizing a face.
+                    Human emotions are complex and influenced by many factors.
+                </p>
+
+            </div>
+
+
+            <div class="psychology-grid">
+
+
+                <div class="psychology-card psychology-pink">
+
+                    <div class="psychology-icon">
+                        🧠
+                    </div>
+
+                    <span class="fact-number">
+                        01
+                    </span>
+
+                    <h3>
+                        Emotions Are Complex
+                    </h3>
+
+                    <p>
+                        Emotional experiences can involve thoughts,
+                        physical responses, behaviour and the situation
+                        around a person.
+                    </p>
+
+                </div>
+
+
+                <div class="psychology-card psychology-purple">
+
+                    <div class="psychology-icon">
+                        👀
+                    </div>
+
+                    <span class="fact-number">
+                        02
+                    </span>
+
+                    <h3>
+                        Context Matters
+                    </h3>
+
+                    <p>
+                        A facial expression does not always have one
+                        universal meaning. Context can change how an
+                        expression is interpreted.
+                    </p>
+
+                </div>
+
+
+                <div class="psychology-card psychology-blue">
+
+                    <div class="psychology-icon">
+                        😊
+                    </div>
+
+                    <span class="fact-number">
+                        03
+                    </span>
+
+                    <h3>
+                        Faces Give Visual Clues
+                    </h3>
+
+                    <p>
+                        Facial movements can provide useful clues about
+                        emotional states, making them valuable for
+                        computer-vision research.
+                    </p>
+
+                </div>
+
+
+                <div class="psychology-card psychology-yellow">
+
+                    <div class="psychology-icon">
+                        🤖
+                    </div>
+
+                    <span class="fact-number">
+                        04
+                    </span>
+
+                    <h3>
+                        AI Makes an Estimate
+                    </h3>
+
+                    <p>
+                        An AI system predicts patterns learned from data.
+                        It cannot directly read someone's thoughts or know
+                        their complete internal emotional experience.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="psychology-note">
+
+                <div class="note-icon">
+                    💡
+                </div>
+
+                <div>
+
+                    <strong>
+                        Important perspective
+                    </strong>
+
+                    <p>
+                        EmoSense is designed as an AI-assisted estimation
+                        system. Its prediction should not be treated as a
+                        perfect measurement of a person's psychological state.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ABOUT AI -->
+
+        <section class="section about-section" id="about">
+
+            <div class="about-visual">
+
+                <div class="about-orbit"></div>
+
+
+                <div class="about-ai-circle">
+
+                    <div class="about-camera-icon">
+                        📷
+                    </div>
+
+                    <div class="about-face">
+                     <span class="about-eye left"></span>
+                      <span class="about-eye right"></span>
+                     <span class="about-smile"></span>
+</div>
+
+                    <div class="about-sparkle">
+                        ✦
+                    </div>
+
+                </div>
+
+
+                <div class="about-chip chip-one">
+                    AI
+                </div>
+
+                <div class="about-chip chip-two">
+                    ML
+                </div>
+
+                <div class="about-chip chip-three">
+                    CV
+                </div>
+
+            </div>
+
+
+            <div class="about-content">
+
+                <div class="section-label">
+                    ✦ TECHNOLOGY CORE
+                </div>
+
+                <h2>
+                    Where Artificial
+                    Intelligence Meets
+                    <span>Human Expression.</span>
+                </h2>
+
+                <p>
+                    EmoSense combines artificial intelligence,
+                    machine learning and computer vision concepts
+                    to explore automated facial emotion detection.
+                </p>
+
+                <p>
+                    The final system will use a trained model to
+                    process facial information and communicate its
+                    prediction through this web interface.
+                </p>
+
+
+                <div class="technology-list">
+
+                    <span>
+                        🤖 Artificial Intelligence
+                    </span>
+
+                    <span>
+                        🧠 Machine Learning
+                    </span>
+
+                    <span>
+                        👁 Computer Vision
+                    </span>
+
+                    <span>
+                        🔥 Deep Learning
+                    </span>
+
+                    <span>
+                        🌐 Web Development
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- EMOTIONS -->
+
+        <section class="section emotions-section" id="emotions">
+
+            <div class="section-heading">
+
+                <div class="section-label">
+                    ✦ EMOTION LIBRARY
+                </div>
+
+                <h2>
+                    Explore Different
+                    <span>Emotional States</span>
+                </h2>
+
+                <p>
+                    These categories can be used as part of the
+                    emotion classification stage of the project.
+                </p>
+
+            </div>
+
+
+            <div class="emotion-grid">
+
+
+                <div class="emotion-item emotion-item-pink">
+
+                    <div>
+                        😊
+                    </div>
+
+                    <strong>
+                        Happy
+                    </strong>
+
+                    <span>
+                        Positive expression
+                    </span>
+
+                </div>
+
+
+                <div class="emotion-item emotion-item-purple">
+
+                    <div>
+                        😢
+                    </div>
+
+                    <strong>
+                        Sad
+                    </strong>
+
+                    <span>
+                        Low-valence expression
+                    </span>
+
+                </div>
+
+
+                <div class="emotion-item emotion-item-yellow">
+
+                    <div>
+                        😡
+                    </div>
+
+                    <strong>
+                        Angry
+                    </strong>
+
+                    <span>
+                        Strong negative expression
+                    </span>
+
+                </div>
+
+
+                <div class="emotion-item emotion-item-blue">
+
+                    <div>
+                        😮
+                    </div>
+
+                    <strong>
+                        Surprised
+                    </strong>
+
+                    <span>
+                        Unexpected response
+                    </span>
+
+                </div>
+
+
+                <div class="emotion-item emotion-item-pink">
+
+                    <div>
+                        😨
+                    </div>
+
+                    <strong>
+                        Fear
+                    </strong>
+
+                    <span>
+                        Threat-related response
+                    </span>
+
+                </div>
+
+
+                <div class="emotion-item emotion-item-purple">
+
+                    <div>
+                        😐
+                    </div>
+
+                    <strong>
+                        Neutral
+                    </strong>
+
+                    <span>
+                        Low visible expression
+                    </span>
+
+                </div>
+
+
+                <div class="emotion-item emotion-item-blue">
+
+                    <div>
+                        🤢
+                    </div>
+
+                    <strong>
+                        Disgust
+                    </strong>
+
+                    <span>
+                        Negative reaction
+                    </span>
+
+                </div>
+
+
+                <div class="emotion-item emotion-item-yellow">
+
+                    <div>
+                        😌
+                    </div>
+
+                    <strong>
+                        Calm
+                    </strong>
+
+                    <span>
+                        Relaxed expression
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- DETECTION STUDIO -->
+
+        <section class="section detector-section" id="detector">
+
+            <div class="section-heading">
+
+                <div class="section-label">
+                    ✦ EMOSENSE STUDIO
+                </div>
+
+                <h2>
+                    Your AI Emotion
+                    <span>Detection Space</span>
+                </h2>
+
+                <p>
+                    Start your camera and prepare the system for
+                    real-time emotion analysis.
+                </p>
+
+            </div>
+
+
+            <div class="detector-card">
+
+
+                <!-- CAMERA PANEL -->
+
+                <div class="camera-panel">
+
+
+                    <div class="panel-heading">
+
+                        <div>
+
+                            <span class="panel-label">
+                                CAMERA
+                            </span>
+
+                            <h3>
+                                Live Detection
+                            </h3>
+
+                        </div>
+
+
+                        <div class="ready-status">
+
+                            <span></span>
+
+                            AI READY
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="camera-screen">
+
+
+                        <div class="camera-placeholder" id="camera-placeholder">
+
+                            <div class="large-camera-icon">
+
+                                <div class="camera-shape">
+
+                                    <div class="camera-lens"></div>
+
+                                </div>
+
+                            </div>
+
+
+                            <h3>
+                                Camera Preview
+                            </h3>
+
+                            <p>
+                                Allow camera access to begin
+                                emotion detection.
+                            </p>
+
+
+                           <button id="start-btn">
+                              📷 <span id="start-btn-text">Start Camera</span>
+                           </button>
+
+                        </div>
+
+
+                        <video
+                            id="webcam"
+                            autoplay
+                            playsinline>
+                        </video>
+
+
+                        <div class="camera-overlay">
+
+                            <span class="scan-line"></span>
+
+                            <span class="corner top-left"></span>
+                            <span class="corner top-right"></span>
+                            <span class="corner bottom-left"></span>
+                            <span class="corner bottom-right"></span>
+
+                        </div>
+
+
+                        <canvas
+                            id="snapshot-canvas"
+                            width="640"
+                            height="480"
+                            style="display:none;">
+                        </canvas>
+
+                    </div>
+
+
+                    <div class="camera-controls">
+
+                        <button
+                            id="capture-btn"
+                            class="secondary-camera-btn">
+                            Capture Frame
+                        </button>
+                        <button id="stop-btn">
+    <i class="fa-solid fa-power-off"></i>
+    Stop Camera
+</button>
+
+                        <span class="camera-status">
+                            ● Camera Standby
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+<!-- RESULTS PANEL -->
+
+<div class="results-panel">
+
+
+    <div class="analysis-header">
+
+        <div>
+
+            <span class="panel-label">
+                AI ANALYSIS
+            </span>
+
+            <h3>
+                Emotion Results
+            </h3>
+
+        </div>
+
+        <div class="analysis-icon">
+            🧠
+        </div>
+
+    </div>
+
+
+    <!-- PRIMARY EMOTION -->
+
+    <div class="primary-emotion-box">
+
+        <span class="result-title">
+            PRIMARY EMOTION
+        </span>
+
+
+        <div
+            class="emotion-result"
+            id="emotion-output">
+            IDLE
+        </div>
+
+
+        <p class="result-text" id="result-text">
+            Start the camera to prepare the
+            system for emotion analysis.
+        </p>
+
+    </div>
+
+
+    <!-- CONFIDENCE -->
+
+    <div class="result-confidence">
+
+        <div class="confidence-heading">
+
+            <span>
+                Overall Confidence
+            </span>
+
+            <span id="confidence-text">
+                0%
+            </span>
+
+        </div>
+
+
+        <div class="confidence-track">
+
+            <div
+                id="confidence-bar"
+                class="confidence-progress">
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- EMOTION PROBABILITIES -->
+
+    <div class="emotion-probabilities">
+
+        <div class="probability-title">
+            Emotion Probability
+        </div>
+
+
+        <!-- HAPPY -->
+
+        <div class="emotion-bar-row">
+
+            <div class="emotion-bar-label">
+
+                <span>
+                    😊 Happy
+                </span>
+
+                <span id="val-happy">
+                    0%
+                </span>
+
+            </div>
+
+            <div class="emotion-bar-track">
+
+                <div
+                    id="bar-happy"
+                    class="emotion-bar-fill fill-pink">
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- SAD -->
+
+        <div class="emotion-bar-row">
+
+            <div class="emotion-bar-label">
+
+                <span>
+                    😢 Sad
+                </span>
+
+                <span id="val-sad">
+                    0%
+                </span>
+
+            </div>
+
+            <div class="emotion-bar-track">
+
+                <div
+                    id="bar-sad"
+                    class="emotion-bar-fill fill-purple">
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- ANGRY -->
+
+        <div class="emotion-bar-row">
+
+            <div class="emotion-bar-label">
+
+                <span>
+                    😡 Angry
+                </span>
+
+                <span id="val-angry">
+                    0%
+                </span>
+
+            </div>
+
+            <div class="emotion-bar-track">
+
+                <div
+                    id="bar-angry"
+                    class="emotion-bar-fill fill-yellow">
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- SURPRISED -->
+
+        <div class="emotion-bar-row">
+
+            <div class="emotion-bar-label">
+
+                <span>
+                    😮 Surprised
+                </span>
+
+                <span id="val-surprised">
+                    0%
+                </span>
+
+            </div>
+
+            <div class="emotion-bar-track">
+
+                <div
+                    id="bar-surprised"
+                    class="emotion-bar-fill fill-blue">
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- NEUTRAL -->
+
+        <div class="emotion-bar-row">
+
+            <div class="emotion-bar-label">
+
+                <span>
+                    😐 Neutral
+                </span>
+
+                <span id="val-neutral">
+                    0%
+                </span>
+
+            </div>
+
+            <div class="emotion-bar-track">
+
+                <div
+                    id="bar-neutral"
+                    class="emotion-bar-fill fill-mint">
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- FEAR -->
+
+        <div class="emotion-bar-row">
+
+            <div class="emotion-bar-label">
+
+                <span>
+                    😨 Fear
+                </span>
+
+                <span id="val-fear">
+                    0%
+                </span>
+
+            </div>
+
+            <div class="emotion-bar-track">
+
+                <div
+                    id="bar-fear"
+                    class="emotion-bar-fill fill-purple">
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- DISGUST -->
+
+        <div class="emotion-bar-row">
+
+            <div class="emotion-bar-label">
+
+                <span>
+                    🤢 Disgust
+                </span>
+
+                <span id="val-disgust">
+                    0%
+                </span>
+
+            </div>
+
+            <div class="emotion-bar-track">
+
+                <div
+                    id="bar-disgust"
+                    class="emotion-bar-fill fill-mint">
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+    <!-- AI MESSAGE -->
+
+    <div class="analysis-message">
+
+        <span>
+            ✨
+        </span>
+
+        <div>
+
+            <strong>
+                AI Insight
+            </strong>
+
+            <p>
+                The AI model will generate the
+                emotion prediction from facial
+                features.
+            </p>
+
+        </div>
+
+    </div>
+
+
+</div>
+
+
+                    <!-- AI MESSAGE -->
+
+                    <div class="analysis-message">
+
+                        <span>
+                            ✨
+                        </span>
+
+                        <div>
+
+                            <strong>
+                                AI Insight
+                            </strong>
+
+                            <p>
+                                The final trained AI model will
+                                generate the emotion prediction
+                                from facial features.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <div class="footer-logo">
+            ✦ EmoSense
+        </div>
+
+        <p>
+            AI-Based Emotion Detection System
+        </p>
+
+        <span>
+            Built with curiosity, creativity &
+            artificial intelligence ✨
+        </span>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
